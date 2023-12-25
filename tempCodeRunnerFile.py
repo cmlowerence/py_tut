@@ -1,1 +1,0 @@
-len(questionBank)-1
