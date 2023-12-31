@@ -95,3 +95,7 @@ while True:
     time.sleep(1)
     sets -= 1
     continue
+  time.sleep(1)
+  print("Game Over!")
+  print(f"You scored {score} points!")
+  break
