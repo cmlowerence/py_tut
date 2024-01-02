@@ -25,25 +25,7 @@ child_obj.child_method()
 #     print("This is class C")
 #     super(A,self).show()
 #     super(B,self).show()
-class A:
-    def show(self):
-        print("This is class A")
 
-class B:
-    def show(self):
-        print("This is class B")
-
-class C(A, B):
-    def show(self):
-        print("This is class C")
-        super(A, self).show()  # Calls the show method of class A
-        super(B, self).show()  # Calls the show method of class B
-
-# Creating an instance of class C
-c_obj = C()
-
-# Calling the show method of class C
-c_obj.show()
 
 
     
