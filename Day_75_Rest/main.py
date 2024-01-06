@@ -1,0 +1,1 @@
+# This day is the exercise solution of Clean the clutter Exercise
