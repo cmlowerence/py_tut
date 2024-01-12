@@ -20,10 +20,6 @@ os.chdir(rootDir)
 
 tone_dir = './tones'
 
-# # def countdown(timeout, function):
-# #   time.sleep(timeout)
-# #   function()
-
 def say_print(msg):
   print(msg)
   subprocess.run(["say", msg])
@@ -89,13 +85,14 @@ def login_wrapper():
   password = input("Enter the password: ")
   usr_exist = verify_credentials(usr_name, password)
   
-  if (not usr_exist):
+  if usr_exist:
     print()
     print("Logging in...")
     logged_in = login(usr_name, password)
     if (logged_in):
       login_body(usr_name, password)
   else:
+    print()
     print("Username doesn't registered...")
     print(f"Select Options:\n\n1. Sign Up\n2. Exit\n3. Retry")
     choice = input("Enter the option: ")
@@ -168,7 +165,6 @@ def signUp_wrapper():
     login(usr_name, password)
     login_body(usr_name, password)
   
-
 # ===================================== Sign Up Function =====================================
 def signUp() -> bool:
   print("SignUp function called")
@@ -193,7 +189,7 @@ def retrieve_data():
   print("Retrieve Data function called...")
   pass
 
-# Notification Function
+# ===================================== Notification Function =====================================
 def notification(**kwargs):
   app_icon = "./icons/water-reminder.png"
   tone = "./tones/Glass.aiff"
