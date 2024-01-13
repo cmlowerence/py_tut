@@ -1,0 +1,83 @@
+{
+  "1": {
+    "usr_name": "cmlowerence2777@gmail.com",
+    "password": "#Avengers1",
+    "name": "C M Lawrence",
+    "activity_log": [
+      {},
+      {},
+      {}
+    ],
+    "reminder_log": [
+      {
+        "time": "15:07:48",
+        "date": "13/01/2024",
+        "msg": "Water Drank"
+      },
+      {
+        "time": "15:07:58",
+        "date": "13/01/2024",
+        "msg": "Water Drank"
+      }
+    ]
+  },
+  "2": {
+    "usr_name": "liukang2777@gmail.com",
+    "password": "9876543210",
+    "name": "Liu Kang",
+    "activity_log": [
+      {},
+      {},
+      {}
+    ],
+    "reminder_log": [
+      {
+        "time": "08:55:45",
+        "date": "12/01/2024",
+        "msg": "Water drank"
+      },
+      {
+        "time": "08:55:45",
+        "date": "12/01/2024",
+        "msg": "Water drank"
+      },
+      {
+        "time": "08:55:45",
+        "date": "12/01/2024",
+        "msg": "Water drank"
+      }
+    ]
+  },
+  "3": {
+    "usr_name": "virender234@gmail.com",
+    "password": "7468292374638",
+    "name": "Virender",
+    "activity_log": [],
+    "reminder_log": []
+  },
+  "4": {
+    "usr_name": "chudamanilawrence2032@gmail.com",
+    "password": "@RobertDawneyJr2032",
+    "name": "Chudamani",
+    "activity_log": [],
+    "reminder_log": []
+  },
+  "5": {
+    "usr_name": "the_trigger_girl",
+    "password": "Minakshi20012006",
+    "name": "Minakshi",
+    "activity_log": [],
+    "reminder_log": [
+      {
+        "time": "15:31:09",
+        "date": "13/01/2024",
+        "msg": "Water Drank"
+      },
+      {
+        "time": "15:31:33",
+        "date": "13/01/2024",
+        "msg": "Water Drank"
+      }
+    ]
+  }
+}
