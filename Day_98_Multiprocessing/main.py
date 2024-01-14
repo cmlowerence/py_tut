@@ -30,8 +30,7 @@ if __name__ == "__main__":
 
   # for p in process_list:
   #   p.join()
-  # with concurrent.futures.ProcessPoolExecutor() as executor:
-  #   results = executor.map(downloadFIle, urls, [i for i in range(len(urls))])
-  #   for result in results:
-  #     print(result)
-  print("Cores: ",multiprocessing.cpu_count())
+  with concurrent.futures.ProcessPoolExecutor() as executor:
+    results = executor.map(downloadFIle, [urls, [i for i in range(len(urls))]])
+    for result in results:
+      print(result)
